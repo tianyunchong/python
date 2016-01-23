@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ tdk.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="/static/js/libs/modernizr.min.js"></script>
+    <script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+    {% if css %}
+    {% for item in css %}
+    {% if item.0 == 'css' %}
+    <link rel="stylesheet" type="text/css" href="{{ item.1 }}"/>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+</head>
+<body>

@@ -1,0 +1,13 @@
+.result-content ul span {
+	margin-left: 10px;
+	display:inline-block; 
+}
+.result-content ul .url {
+	width:300px;
+}
+.result-content ul .updatetime {
+	width:150px;
+}
+.result-content .pages {
+	margin-left: 10px;
+}

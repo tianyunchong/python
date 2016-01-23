@@ -1,0 +1,18 @@
+.result-content ul span {
+	margin-left: 10px;
+	display:inline-block;
+	line-height
+}
+.result-content ul .url {
+	width:300px;
+}
+.result-content ul .updatetime {
+	width:150px;
+}
+.result-content .pages {
+	margin-left: 10px;
+}
+.result-content ul .text {
+    width:100px;
+    over-flow:hidden;
+}

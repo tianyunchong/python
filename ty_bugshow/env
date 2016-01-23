@@ -1,0 +1,7 @@
+#/bin/bash
+#初始化运行环境
+sudo pip install django==1.8
+sudo pip install python-mysql
+sudo pip install django-pagination  
+sudo pip install django-bootstrap-static  
+sudo pip install chardet
